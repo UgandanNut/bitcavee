@@ -1,0 +1,78 @@
+*{
+   font-family:'Permanent Marker', cursive;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 70%;
+    font-size: 30px;
+    color: white;
+}
+
+.back-video{
+	position:absolute;
+	right:0;
+	bottom:0;
+    z-index: -1;
+	}
+
+.nds{
+    margin-top: 0;
+    text-decoration: none;
+    width: 800px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    opacity: 70%;
+    }
+
+.nds:hover,
+.nds:focus{
+    opacity: 20%;
+}
+.ndsi{
+    margin-top: 10px;
+    text-decoration: none;
+    width: 800px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50px;
+    opacity: 70%;
+    }
+
+.ndsi:hover,
+.ndsi:focus{
+    opacity: 20%;
+}
+    
+.threeds{
+    margin-top: 20px;
+    text-decoration: none;
+    width: 800px;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 50px;
+    opacity: 70%;
+}
+
+.threeds:hover,
+.three:focus{
+    opacity: 20%;
+}
+
+.back h1 a{
+    padding: 14px 70px;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 10%;
+    font-size: 30px;
+    margin-top: 30%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.back:hover,
+.back:focus{
+    opacity: 20%;
+}

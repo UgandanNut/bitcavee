@@ -1,0 +1,101 @@
+*{padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Permanent Marker', cursive;
+    overflow-x:hidden;
+	
+	}
+
+	.back-video{
+		position: absolute;
+		 right: 0;
+		bottom: 0;
+		z-index: -1;
+		}
+
+.main-width{
+width: 1500px;
+max-width: 95%;
+margin: 0 auto;
+}
+
+.hero header .logo h2 a{
+	display: block;
+	font-size: 50px;
+	font-weight: 600px;
+	text-decoration: none;
+	color: papayawhip;
+}
+.hero header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 0 30px;
+}
+
+nav ul li a{
+	list-style: none;
+	display:inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	margin-left: 0px;
+	font-size: 15px;
+	font-weight: 600;
+	border-bottom: 2px solid transparent;
+	transition: .2px;
+}
+nav ul li:hover,
+nav ul li:focus{
+	border-bottom: 3px solid white;
+}
+
+nav ul h1:hover,
+nav ul h1:focus{
+	opacity: 20%;
+}
+
+nav ul h1 a{
+	position:absolute;
+	text-decoration: none;
+	display: inline-block;
+	color: #ffff;
+	font-size: 25px;
+	border: 2px solid white;
+	padding: 14px 70px;
+    border-radius: 50px;
+	margin-top: 10px;
+}
+
+nav ul h2 a{
+	position:absolute;
+	text-decoration: none;
+	display:inline-block;
+	color: #ffff;
+	font-size: 25px;
+	border: 2px solid white;
+	padding: 14px 70px;
+	border-radius: 50px;
+	margin-top: 100px;
+}
+
+nav ul h2 a:hover,
+nav ul h2 a:focus{
+	opacity: 20%;
+}
+
+
+
+
+
+
+@media (max-aspect-ratio:16/9){
+	.back-video{
+		width: auto;
+		height: auto;
+	}
+}
+
+
+
